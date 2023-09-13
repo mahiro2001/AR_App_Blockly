@@ -1,0 +1,20 @@
+<html lang="ja">
+<head>
+  <meta charset="utf-8"/>
+  <script src="https://unpkg.com/blockly@10.1.3/blockly_compressed.js"></script>    <!-- ライブラリを読み込む -->
+  <script src="https://unpkg.com/blockly@10.1.3/blocks_compressed.js"></script>     <!-- ライブラリを読み込む -->
+  <script src="https://unpkg.com/blockly@10.1.3/javascript_compressed.js"></script> <!-- ライブラリを読み込む -->
+  <script src="https://unpkg.com/blockly@10.1.3/msg/ja.js"></script>           <!-- 日本語化 -->
+  <title>Blockly Sample</title>
+</head>
+<body>
+  <div id="blocklyDiv" style="height: 480px; width: 600px;"></div>                                <!-- ワークスペースを用意 -->
+
+  <button id="showCode">ボタン</button>
+  <pre id="jsCode"></pre>
+
+  <script src="script.js"></script>
+<!-- <script>var workspace = Blockly.inject('blocklyDiv',                                                  // ライブラリに読み込ませる
+{toolbox: document.getElementById('toolbox')});</script> -->
+</body>
+</html>
